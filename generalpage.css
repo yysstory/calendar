@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+#header {
+	/* border: 1px solid red; */
+	background-position: -1000px -670px;
+	height: 100px;
+}
+
+#today {
+	font-family: 'Francois One';
+	text-align: center;
+	display: block;
+	font-size: 6em;
+	font-weight: bold;
+	color : #cdc132;
+}
+
+#main>#sh {
+	width: 20%;
+	height: 80%;
+	border: 1px solid green;
+	float: left;
+}
+
+#main>#calender {
+	height: 450px;
+	line-height: 1.5em;
+	margin-left: 25%;
+
+}
+
+#calTable {
+	padding: 10px;
+	margin: 0;
+	border-left: 1px solid #A2ADBC;
+	color: #616B76;
+	text-align: center;
+  filter: Alpha(Opacity=50);
+  
+
+  
+}
+
+th, tr, td {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+th {
+	font-size: x-large;
+	color: #616B76;
+	background: #D9E2E1;
+	border-right: 1px solid #A2ADBC;
+	border-bottom: 1px solid #A2ADBC;
+	border-top: 1px solid #A2ADBC;
+}
+
+td, th {
+	font-size: medium;
+	border-right: 1px solid #A2ADBC;
+	border-bottom: 1px solid #A2ADBC;
+	
+	text-align: center;
+}
+#calTable>th,#calTable>td{
+	width: 65px;
+	height: 65px;
+}
+
+#boardTable>th,#boardTable>td{
+	width: 90px;
+	height: 90px;
+}
+.sun {
+	color: red;
+}
+
+.sat {
+	color: blue;
+}
+
+td:hover {
+	background-color: red;
+}
+
+#footer {
+	padding: 10px;
+	height: 100px;
+	border-top: 1px solid black;
+	clear: left; /* 왼쪽에 부딪히는 것이 있으면 아래로 이동하라!*/
+	/* border: 1px solid black; */
+	text-align: center;
+	border-color:gray;
+
+}
+
+input[type=text]{
+background:transparent
+}
+
+#tx1{
+	font-size: 100%;
+	
+}
+
+#tx2{
+	font-size: 200%;
+	
+}
+#work{
+	color:olive;
+}
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #cdc032), color-stop(1, #cdc032));
+	background:-moz-linear-gradient(top, #cdc032 5%, #cdc032 100%);
+	background:-webkit-linear-gradient(top, #cdc032 5%, #cdc032 100%);
+	background:-o-linear-gradient(top, #cdc032 5%, #cdc032 100%);
+	background:-ms-linear-gradient(top, #cdc032 5%, #cdc032 100%);
+	background:linear-gradient(to bottom, #cdc032 5%, #cdc032 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cdc032', endColorstr='#cdc032',GradientType=0);
+	background-color:#cdc032;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:6px solid #cdc032;
+	display:inline-block;
+	cursor:pointer;
+	color:#a39c5f;
+	font-family:arial;
+	font-size:23px;
+	font-weight:bold;
+	padding:0px 16px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #52503d;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #cdc032), color-stop(1, #cdc032));
+	background:-moz-linear-gradient(top, #cdc032 5%, #cdc032 100%);
+	background:-webkit-linear-gradient(top, #cdc032 5%, #cdc032 100%);
+	background:-o-linear-gradient(top, #cdc032 5%, #cdc032 100%);
+	background:-ms-linear-gradient(top, #cdc032 5%, #cdc032 100%);
+	background:linear-gradient(to bottom, #cdc032 5%, #cdc032 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cdc032', endColorstr='#cdc032',GradientType=0);
+	background-color:#cdc032;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
